@@ -7,4 +7,5 @@ const URL_MAP = {
 
 const WINDOW_SIZE = 10;
 
-module.exports = { URL_MAP, WINDOW_SIZE };
+// Make sure you're using named exports here
+export { URL_MAP, WINDOW_SIZE };
